@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201454016764",
+    "project_id": "basic-video-player-9ea5a",
+    "storage_bucket": "basic-video-player-9ea5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201454016764:android:e755cad91b7f9c12d11f79",
+        "android_client_info": {
+          "package_name": "com.example.basic_video_player"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApiksMfHfQM3sp_uezWz8ohXD3pvHHgJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
