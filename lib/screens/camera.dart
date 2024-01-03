@@ -33,17 +33,25 @@ class _CameraScreenState extends State<CameraScreen> {
     _cameraController = CameraController(front, ResolutionPreset.max);
     await _cameraController.initialize();
     setState(() => _isLoading = false);
+    // print('initialized ........');
   }
 
   _recordVideo() async {
     if (_isRecording) {
+      // print('Stopped recording ........');
       final file = await _cameraController.stopVideoRecording();
       setState(() => _isRecording = false);
       Navigator.popAndPushNamed(context, RecordedVideoPreview.id,arguments: file.path);
     } else {
-      await _cameraController.prepareForVideoRecording();
-      await _cameraController.startVideoRecording();
-      setState(() => _isRecording = true);
+      // print('Started recording ........');
+      try{
+        await _cameraController.prepareForVideoRecording();
+        await _cameraController.startVideoRecording();
+        setState(() => _isRecording = true);
+      }catch(E){
+        print("error .....");
+        print(E.toString());
+      }
     }
   }
 
