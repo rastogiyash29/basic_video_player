@@ -1,16 +1,19 @@
 # basic_video_player
 
-A new Flutter project.
+This is a simple video recorder app that records videos and uploads them on Firestore, also this app can view all the recorded videos.
+
+I am attaching screenshots and a screen recording of the app below:
+
+## Screenshots
+
+## Screen-recording
 
 ## Getting Started
+You can directly pull the code and build an app from it. and finally use and enjoy.
+You can download the APK file from the release section.
 
-This project is a starting point for a Flutter application.
+## Made by 
+Yash Rastogi,
+mail: rastogiyash29@gmail.com
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
